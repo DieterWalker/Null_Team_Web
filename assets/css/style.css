@@ -1,0 +1,175 @@
+
+:root{ 
+    --background-color:  #edf2f5;
+    --white-color:  #ffffff;
+    --gray-color: #6f6f6f;
+    --dark-green-color: #00b800;
+    --black-color: #000000;
+    --blue-color: #0080ff;
+    --light-blue-color: #5aadff;
+    --font-title: 40px;
+    --font-main: 24px;
+    --font-slogan: 32px;
+    --font-content: 16px;
+
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: var(--background-color);
+    grid-template-columns: 400px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block
+}
+
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Jaro', sans-serif;
+    font-weight: bold;
+    font-size: var(--font-title);
+}
+
+.title{
+    width: 200px;
+    padding: 5px 20px;
+    background: linear-gradient(-20deg, #00ddff,  #ff0000);
+    transform: skew(-20deg);
+    background-color: #bebebe;
+}
+
+.team-slogan{
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Jaro', sans-serif;
+    font-weight: bold;
+    font-size: var(--font-slogan);
+    background: linear-gradient(20deg, #ffffff,  #838383);
+
+}
+
+.tile-piece-left{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 260px;
+    padding: 5px 20px;
+    background: linear-gradient(-20deg, #00ddff,  #ff0000);
+    transform: skew(-20deg); 
+    font-size: var(--font-slogan);
+    font-family: 'Jaro', sans-serif;
+    color: #ffffff;
+}
+
+.sub-content-left {
+    padding: 20px 20px;
+    color: white;
+    font-size: var(--font-content)
+}
+
+.about-us{
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.soldier-shooter{
+    background: linear-gradient(-20deg, #ffffff,  #9b9b9b);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.sub-content{
+    padding: 10px 20px;; 
+}
+
+.member{
+    background: linear-gradient(120deg, #ffffff,  #9f9f9f);
+}
+
+.member-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.member-item{
+    display: block;
+    
+}
+
+.member-face{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.member-github{
+    font-size: var(--font-main);
+    font-family: 'Jaro', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.information-github{
+    color: #000000;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.information-game{
+    color: #000000;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.information-game:hover {
+    background: linear-gradient(45deg, #ff0000, #1e90ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition-duration: 0.3s;
+}
+
+.information-github:hover, .information-github-footer:hover{
+    background: linear-gradient(45deg, #ff0000, #1e90ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition-duration: 0.3s;
+}
+
+.black-panel {
+    background-color: #000000;
+    color: white;
+    font-size: var(--font-title);
+    font-family: 'Jaro', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.member-image{
+    border-radius: 50%;
+    border: 2pt solid white;
+}
+
+.download-game{
+    padding: 0px 10px 20px 0px;
+    font-size: var(--font-content);
+    font-family: 'Jaro', sans-serif;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #000000;
+    color: #edf2f5;
+    font-size: var(--font-title);
+    font-family: 'Jaro', sans-serif;
+}
+
+.contact{
+    padding: 20px 20px;
+}
+
