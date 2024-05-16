@@ -81,6 +81,12 @@ body {
     grid-template-columns: auto auto;
 }
 
+.Tic-tac-toe{
+    background: linear-gradient(-20deg, #000000,  #353535);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 
 .sub-content{
     padding: 10px 20px;; 
@@ -133,6 +139,19 @@ body {
     transition-duration: 0.3s;
 }
 
+.information-game-2{
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.information-game-2:hover {
+    background: linear-gradient(45deg, #ff0000, #1e90ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition-duration: 0.3s;
+}
+
 .information-github:hover, .information-github-footer:hover{
     background: linear-gradient(45deg, #ff0000, #1e90ff);
     -webkit-background-clip: text;
@@ -151,7 +170,7 @@ body {
 
 .member-image{
     border-radius: 50%;
-    border: 2pt solid white;
+    border: 2pt solid rgb(255, 255, 255);
 }
 
 .download-game{
